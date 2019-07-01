@@ -32,7 +32,7 @@ RDEPEND="${DEPEND}
 	dev-libs/libxslt
 	dev-qt/qtmultimedia
 	media-libs/fontconfig
-	media-libs/gstreamer:1.14.4
+	media-libs/gstreamer
 	media-libs/gst-plugins-base:0.10
 	media-libs/mesa
 	x11-libs/libxcb
