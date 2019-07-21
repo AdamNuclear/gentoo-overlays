@@ -81,7 +81,7 @@ src_compile() {
 	# The arm_sdk package will be installed, to avoid challenges with
 	# crossdev
 
-	make arm_sdk_install &&  QT_SELECT=5 make gcs
+	emake arm_sdk_install && QT_SELECT=5 emake gcs
 
 	# TODO:: Add building of the doc files
 }
