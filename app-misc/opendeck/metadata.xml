@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>maintainer@example.com</email>
+		<name>Your Name</name>
+	</maintainer>
+	<longdescription lang="en">
+		OpenDeck is a desktop application for using stream controller devices
+		like the Elgato Stream Deck on Linux, Windows, and macOS. OpenDeck
+		supports plugins made for the original Stream Deck SDK, allowing many
+		plugins made for the Elgato software ecosystem to be used, or the
+		OpenAction API.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">nekename/OpenDeck</remote-id>
+		<bugs-to>https://github.com/nekename/OpenDeck/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="wayland">Enable Wayland support</flag>
+	</use>
+</pkgmetadata>
